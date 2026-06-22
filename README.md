@@ -47,6 +47,35 @@ Mở trình duyệt tại: [http://localhost:3000](http://localhost:3000)
 
 ---
 
+## Triển khai GitHub Pages
+
+Ứng dụng được cấu hình để tự động deploy lên GitHub Pages qua GitHub Actions.
+
+Sau khi bật GitHub Pages trong repo, trang sẽ chạy tại:  
+**https://huyzpka-commits.github.io/giapha/**
+
+### Bước 1: Bật GitHub Pages
+
+1. Vào repo trên GitHub: https://github.com/huyzpka-commits/giapha
+2. Vào **Settings → Pages**
+3. Ở mục **Build and deployment**, chọn **Source: GitHub Actions**
+
+### Bước 2: Chạy workflow
+
+Workflow `.github/workflows/deploy.yml` đã được thêm vào repo. Mỗi lần push lên nhánh `master`, GitHub Actions sẽ tự động build và deploy.
+
+Để kiểm tra tiến trình:
+
+1. Vào repo → tab **Actions**
+2. Chọn workflow **Deploy to GitHub Pages**
+3. Đợi job `build` và `deploy` chạy xanh
+
+### Bước 3: Truy cập trang
+
+Sau khi deploy thành công, mở: https://huyzpka-commits.github.io/giapha/
+
+---
+
 ## Scripts
 
 | Script | Mô tả |
