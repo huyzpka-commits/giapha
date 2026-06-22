@@ -69,7 +69,7 @@ export default function Sidebar({ active, onSelect }) {
         <div className="flex items-center gap-2 text-yellow-300 text-sm">
           <Phone size={14} className="text-yellow-500 shrink-0" />
           <div>
-            <p className="font-semibold">088 999 1120</p>
+            <p className="font-semibold">0396818584</p>
             <p className="text-yellow-600 text-xs">Ban quản lý gia phả</p>
           </div>
         </div>
